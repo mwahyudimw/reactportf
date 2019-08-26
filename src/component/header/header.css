@@ -1,0 +1,45 @@
+.header{
+	width: 100%;
+	height: 60px;
+	background-image: linear-gradient(teal,rgba(0,0,0,0.8));
+	color: #fff;
+	padding-left: 1%;
+	justify-content: left;
+	align-items: center;
+	align-content: center;	
+	display: flex;
+	top: 0px;
+	position: fixed;
+	text-align: left;
+}
+
+.navbar{
+	width: 20%;
+	height: 30px;
+	margin-left: 70%;
+}
+
+.navbar_content{
+	color: #fff;
+	width: 40%;
+	height: 30px;
+	float: left;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	margin-left: 6%;
+}
+
+.navbar_content:hover{
+	background-color: rgba(0,0,0,0.6);
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 60px) {
+ 	.navbar_content{
+ 		font-size: 12px;
+ 	}
+
+
+}
